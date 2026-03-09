@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+
+# AWS credentials/config
+.aws/
