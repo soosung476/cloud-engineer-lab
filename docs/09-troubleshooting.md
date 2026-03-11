@@ -13,3 +13,9 @@
 3. 80 포트 리스닝 확인
 4. Security Group 80 확인
 5. nginx access/error 로그 확인
+
+## ALB SG로 인한 접속불가.
+1. ALB를 관리하는 SG를 생성 (HTTP)
+2. 해당 SG의 아웃바운드를 EC2관리 SG에 연결
+3. EC2 관리 SG의 인바운드를 ALB관리 SG로 설정.
+
